@@ -26,3 +26,6 @@ mongoose.connect(process.env.MONGO_URI)
     console.error("MongoDB connection error:", err);
     process.exit(1);   // stop app because DB failed
   });
+--------------------------------------------------------------------------------------------
+
+#mostly we use the app.use when we have to use the middlewares
