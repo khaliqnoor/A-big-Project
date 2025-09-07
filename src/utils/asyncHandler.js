@@ -8,18 +8,6 @@ export {asyncHandler}
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 // in the async function you can also use the curly bracket but for now we have removed it and also the thing is that it returns another function and the thing is that if your concepts are not cleared then you can search for it in the google too 
 
 //the above code is off the try and catch  

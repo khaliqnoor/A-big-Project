@@ -29,3 +29,7 @@ mongoose.connect(process.env.MONGO_URI)
 --------------------------------------------------------------------------------------------
 
 #mostly we use the app.use when we have to use the middlewares
+
+
+
+// search for pre hook in teh middle ware in teh mongodb and alsoo for the ohter concepts of the mongoose aggregate pagginate -v2
