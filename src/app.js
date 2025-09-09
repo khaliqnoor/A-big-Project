@@ -14,4 +14,16 @@ app.use(express.urlencoded({extended:true, limit: "16kb"}))
 app.use(express.static("public"))
 app.use(cookieParser());
 
+
+// routes import
+import userRouter from './routes/user.routes.js'
+
+// routes declaration
+
+app.use("/api/v1/users", userRouter)
+
+
+// here the url waill become like this http://localhost:8000/api/v1/users/then here will be the path whre you have writtern in the routes like the  post one or the other one.
+
+
 export { app } 

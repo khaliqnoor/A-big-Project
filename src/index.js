@@ -1,7 +1,7 @@
 // require('dotenv').config()
 
 // we cant use the require because this will messed the consistncy of the code and also the thing is that it can produce multiple errors
-
+import { app } from "./app.js"
 import dotenv from "dotenv"
 import connectDb from "./db/index.js"
 

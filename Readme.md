@@ -30,6 +30,14 @@ mongoose.connect(process.env.MONGO_URI)
 
 #mostly we use the app.use when we have to use the middlewares
 
+// for middleware remember that this line will make you able to alwawys have middlewares concepts in your mind and that is "janay say pehlay mujh say milkar jana"
+
+// also search about the express-fileupload which is like the multer concepts 
 
 
 // search for pre hook in teh middle ware in teh mongodb and alsoo for the ohter concepts of the mongoose aggregate pagginate -v2
+
+----------------------------------------------------------------------------------------------
+
+ABOUT HTTP CRASH COURSE 
+
